@@ -8,6 +8,7 @@ int TrafficObject::_idCnt = 0;
 
 std::mutex TrafficObject::_mtx;
 
+
 void TrafficObject::setPosition(double x, double y)
 {
     _posX = x;
